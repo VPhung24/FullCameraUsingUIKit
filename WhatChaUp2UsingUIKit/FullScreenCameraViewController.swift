@@ -192,7 +192,6 @@ class FullScreenCameraViewController: UIViewController {
 
         let xWidth = (image.size.width - newSize.width) / 2
         let yHeight = (image.size.height - newSize.height) / 2
-        let cropRect = CGRect(x: xWidth, y: yHeight, width: newSize.width, height: newSize.height)
 
         UIGraphicsBeginImageContextWithOptions(newSize, false, 1.0)
         image.draw(in: CGRect(x: -xWidth, y: -yHeight, width: image.size.width, height: image.size.height))
