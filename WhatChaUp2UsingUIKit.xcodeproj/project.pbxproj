@@ -10,12 +10,12 @@
 		0800683A29C940630025BF1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800683929C940630025BF1D /* AppDelegate.swift */; };
 		0800683C29C940630025BF1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800683B29C940630025BF1D /* SceneDelegate.swift */; };
 		0800683E29C940630025BF1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800683D29C940630025BF1D /* ViewController.swift */; };
-		0800684129C940630025BF1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0800683F29C940630025BF1D /* Main.storyboard */; };
 		0800684329C940630025BF1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0800684229C940630025BF1D /* Assets.xcassets */; };
 		0800684629C940630025BF1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0800684429C940630025BF1D /* LaunchScreen.storyboard */; };
 		0800685129C940640025BF1D /* WhatChaUp2UsingUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800685029C940640025BF1D /* WhatChaUp2UsingUIKitTests.swift */; };
 		0800685B29C940640025BF1D /* WhatChaUp2UsingUIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800685A29C940640025BF1D /* WhatChaUp2UsingUIKitUITests.swift */; };
 		0800685D29C940640025BF1D /* WhatChaUp2UsingUIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800685C29C940640025BF1D /* WhatChaUp2UsingUIKitUITestsLaunchTests.swift */; };
+		0800686C29CA262F0025BF1D /* FullScreenCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800686B29CA262F0025BF1D /* FullScreenCameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		0800683929C940630025BF1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0800683B29C940630025BF1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0800683D29C940630025BF1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0800684029C940630025BF1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0800684229C940630025BF1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0800684529C940630025BF1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0800684729C940630025BF1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		0800685629C940640025BF1D /* WhatChaUp2UsingUIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatChaUp2UsingUIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0800685A29C940640025BF1D /* WhatChaUp2UsingUIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatChaUp2UsingUIKitUITests.swift; sourceTree = "<group>"; };
 		0800685C29C940640025BF1D /* WhatChaUp2UsingUIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatChaUp2UsingUIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0800686B29CA262F0025BF1D /* FullScreenCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 				0800683929C940630025BF1D /* AppDelegate.swift */,
 				0800683B29C940630025BF1D /* SceneDelegate.swift */,
 				0800683D29C940630025BF1D /* ViewController.swift */,
-				0800683F29C940630025BF1D /* Main.storyboard */,
+				0800686B29CA262F0025BF1D /* FullScreenCameraViewController.swift */,
 				0800684229C940630025BF1D /* Assets.xcassets */,
 				0800684429C940630025BF1D /* LaunchScreen.storyboard */,
 				0800684729C940630025BF1D /* Info.plist */,
@@ -134,6 +134,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0800686029C940640025BF1D /* Build configuration list for PBXNativeTarget "WhatChaUp2UsingUIKit" */;
 			buildPhases = (
+				0800686D29CA3F320025BF1D /* Run Script */,
 				0800683229C940630025BF1D /* Sources */,
 				0800683329C940630025BF1D /* Frameworks */,
 				0800683429C940630025BF1D /* Resources */,
@@ -233,7 +234,6 @@
 			files = (
 				0800684629C940630025BF1D /* LaunchScreen.storyboard in Resources */,
 				0800684329C940630025BF1D /* Assets.xcassets in Resources */,
-				0800684129C940630025BF1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +253,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0800686D29CA3F320025BF1D /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n    swiftlint --fix && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0800683229C940630025BF1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +283,7 @@
 				0800683E29C940630025BF1D /* ViewController.swift in Sources */,
 				0800683A29C940630025BF1D /* AppDelegate.swift in Sources */,
 				0800683C29C940630025BF1D /* SceneDelegate.swift in Sources */,
+				0800686C29CA262F0025BF1D /* FullScreenCameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +320,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0800683F29C940630025BF1D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0800684029C940630025BF1D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0800684429C940630025BF1D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -440,11 +455,12 @@
 				DEVELOPMENT_TEAM = 9SAQ42S589;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WhatChaUp2UsingUIKit/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "take photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,11 +484,12 @@
 				DEVELOPMENT_TEAM = 9SAQ42S589;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WhatChaUp2UsingUIKit/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "take photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
